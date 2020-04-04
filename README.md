@@ -10,3 +10,7 @@ http://docs.tweepy.org/en/latest/
 
 ### Dropping tweets from a user onto a dataframe 
 `df = tweet_analyzer.tweets_to_data_frame(tweets)`
+
+
+### See all the information that a tweet objct has available 
+`print(dir(tweets[0]))`
